@@ -21,9 +21,7 @@ def update_compare_plot(
         str(bert_datasets()[bert_data_file]),
         date_str, ticker
     )
-    bert = json.dumps(bert_value)
-    #vader = pd.read_json(vader_value, orient='table')
-    vader = 0
+
     print(result_df)
     fig.add_trace(
             go.Scatter(
