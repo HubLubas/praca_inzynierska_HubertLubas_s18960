@@ -314,10 +314,3 @@ def get_split(text1):
             l_partial = text1.split()[w * 150 : w * 150 + 200]
             l_total.append(" ".join(l_partial))
     return l_total
-
-
-# data = pd.read_pickle('models/azn_prices_labels_news_20210107.pkl')
-# end = bert_data_tokenizer(data, ['astrazeneca', 'pfizer'])
-
-
-# print("###################")
