@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dashboard:
+    build: ./app
+    restart: always
+    ports:
+      - "8069:80"
+    volumes:
+      - "./app:/usr/src"
+      - "./ml_scripts:/usr/src/ml_scripts"
+      - "./models:/usr/src/models"

@@ -1,0 +1,11 @@
+gunicorn
+dash
+dash_bootstrap_components
+yfinance
+matplotlib
+seaborn
+mplfinance
+statsmodels
+torch
+transformers
+sklearn
