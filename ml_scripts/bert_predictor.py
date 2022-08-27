@@ -118,17 +118,3 @@ def bert_prediction(article_sentiments, word_tokens):
         list = response.tolist()
     return list
 
-
-# article_sentimets = pd.read_pickle('models/azn_article_sentiments_20220602.pkl')
-# data_vader = dm.financial_article_cleaner_v2('models/azn_article_sentiments_20220602.pkl', 'AZN.L', '2015-05-15', '2022-06-02')
-# bert_data = dm.bert_data_v2(data_vader)
-# bert_data = bert_data
-# print(bert_data)
-# data_vader.drop("Label", axis=1, inplace=True)
-# print('######################')
-# print(bert_data)
-# data_vader.to_pickle('models/vader_data5.pkl')
-# print(data_vader.loc['2018-05-16'])
-# bert_data = pd.read_pickle('models/bert_data2.pkl')
-# model = torch.load('models/bert_model.zip')
-# print(bert_prediction(bert_data, model, ['astrazeneca', 'pfizer']))

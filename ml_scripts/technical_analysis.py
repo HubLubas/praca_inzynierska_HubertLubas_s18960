@@ -344,5 +344,3 @@ def so(ticker, start_date, end_date):
 
     return response
 
-
-# print(so('AZN.L', '2018-05-01','2019-10-31'))
